@@ -2,8 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>
-          <nav>
+          <nav className='container'>
         <div className="logo">
           <img src="./brand_logo.png" alt="" />
         </div>
@@ -15,7 +14,6 @@ const Nav = () => {
         </ul>
         <button className='btn'>Login</button>
       </nav>
-    </div>
   )
 }
 

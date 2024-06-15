@@ -10,16 +10,50 @@
     font-weight: 500;
     border-radius: 10px;
 }
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 70px;
+    height: 50px;
     align-items: center;
 }
 .unorder{
     display: flex;
     list-style: none;
     gap: 24px;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    height: calc(100vh-70);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero h1{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 104px;
+    font-family: sans-serif;
+}
+.hero p{
+    font-weight: 600;
+    color: black;
+    max-width: 400px;
+}
+.hero-btn{
+    display: flex;
+    gap: 7px;
+}
+.shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
 }
