@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.btn{
+    all: unset;
+    padding: 6px 16px;
+    background-color: red;
+    height: 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+}
+.unorder{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
