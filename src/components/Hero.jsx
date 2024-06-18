@@ -13,7 +13,6 @@ const Hero = () => {
                 <button className='btn'>Category</button>
                </div>
                <div className='shooping'>
-                {/* <p>Also Available On</p> */}
                 <div className="brand-icons">
                     <img src="/shop.png" alt="" />
                 </div>

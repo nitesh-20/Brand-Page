@@ -8,7 +8,7 @@ const Nav = () => {
         </div>
         <ul className='unorder'>
           <li href="#">Home</li>
-          <li href="#">Location</li>
+          <li href="#">Nike</li>
           <li href="#">About</li>
           <li href="#">Contact</li>
         </ul>
